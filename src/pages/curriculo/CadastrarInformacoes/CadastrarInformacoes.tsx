@@ -84,7 +84,6 @@ const CadastrarInformacoes: React.FC = () => {
         <div className={styles.formWrapper}>
             <Formik
                 initialValues={informacoes || initialValues}
-                enableReinitialize={true}
                 validationSchema={validationSchema}
                 onSubmit={onSubmit}
             >

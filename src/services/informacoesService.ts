@@ -27,7 +27,7 @@ export async function deleteInformacoes(): Promise<void> {
 export const createOrUpdateInformacoes = async (
     informacoes: Informacoes
 ): Promise<Informacoes> => {
-    if (informacoes.id) {
+    if (!informacoes.id) {
         return await updateInformacoes(informacoes);
     } else {
         return await createInformacoes(informacoes);

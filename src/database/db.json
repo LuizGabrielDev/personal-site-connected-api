@@ -1,0 +1,44 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "teste@gmail.com",
+      "password": "teste@123"
+    }
+  ],
+  "informacoes": [
+    {
+      "id": 1,
+      "foto": "https://github.com/LuizGabrielDev.png",
+      "nome": "Luiz Gabriel",
+      "cargo": "Graduando em Ciências da Computação",
+      "resumo": "Teste "
+    }
+  ],
+  "experiencias": [
+    {
+      "id": 1,
+      "titulo": "Desenvolvedor de Softwares",
+      "descricao": "",
+      "tipo": "profissional",
+      "anoInicio": 2022,
+      "anoFim": 2023
+    },
+    {
+      "id": 2,
+      "titulo": "Técnico em Edificações IFPE",
+      "descricao": "",
+      "tipo": "academico",
+      "anoInicio": "2019",
+      "anoFim": "2023"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "link": "https://luizgabrieldev.github.io/Second-Project/",
+      "image": "https://picsum.photos/300/200?random=2",
+      "title": "teste"
+    }
+  ]
+}
